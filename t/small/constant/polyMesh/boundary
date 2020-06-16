@@ -33,8 +33,8 @@ FoamFile
     }
     front
     {
-        type            cyclic;
-        inGroups        List<word> 1(cyclic);
+        type            wall;
+        inGroups        List<word> 1(wall);
         nFaces          4;
         startFace       14;
         matchTolerance  0.0001;
@@ -43,8 +43,8 @@ FoamFile
     }
     back
     {
-        type            cyclic;
-        inGroups        List<word> 1(cyclic);
+        type            wall;
+        inGroups        List<word> 1(wall);
         nFaces          4;
         startFace       18;
         matchTolerance  0.0001;
@@ -53,8 +53,8 @@ FoamFile
     }
     defaultFaces
     {
-        type            empty;
-        inGroups        List<word> 1(empty);
+        type            wall;
+        inGroups        List<word> 1(wall);
         nFaces          16;
         startFace       22;
     }
