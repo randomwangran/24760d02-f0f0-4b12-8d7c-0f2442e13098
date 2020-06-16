@@ -21,22 +21,22 @@ FoamFile
     {
         type            wall;
         inGroups        List<word> 1(wall);
-        nFaces          4;
-        startFace       52;
+        nFaces          2;
+        startFace       10;
     }
     upperWall
     {
         type            wall;
         inGroups        List<word> 1(wall);
-        nFaces          4;
-        startFace       56;
+        nFaces          2;
+        startFace       12;
     }
     front
     {
         type            cyclic;
         inGroups        List<word> 1(cyclic);
-        nFaces          8;
-        startFace       60;
+        nFaces          4;
+        startFace       14;
         matchTolerance  0.0001;
         transform       unknown;
         neighbourPatch  back;
@@ -45,8 +45,8 @@ FoamFile
     {
         type            cyclic;
         inGroups        List<word> 1(cyclic);
-        nFaces          8;
-        startFace       68;
+        nFaces          4;
+        startFace       18;
         matchTolerance  0.0001;
         transform       unknown;
         neighbourPatch  front;
@@ -55,8 +55,8 @@ FoamFile
     {
         type            empty;
         inGroups        List<word> 1(empty);
-        nFaces          64;
-        startFace       76;
+        nFaces          16;
+        startFace       22;
     }
 )
 
