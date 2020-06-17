@@ -17,7 +17,7 @@ FoamFile
 
 dimensions      [0 -1 0 1 0 0 0];
 
-internalField   nonuniform List<scalar> 8(9.75886e-14 9.75886e-14 0 0 0 0 -9.75886e-14 -9.75886e-14);
+internalField   nonuniform List<scalar> 8(-2.66454e-15 -2.66454e-15 0 0 0 0 2.66454e-15 2.66454e-15);
 
 boundaryField
 {
@@ -34,12 +34,12 @@ boundaryField
     front
     {
         type            calculated;
-        value           nonuniform List<scalar> 4(9.75886e-14 0 0 -9.75886e-14);
+        value           nonuniform List<scalar> 4(-2.66454e-15 0 0 2.66454e-15);
     }
     back
     {
         type            calculated;
-        value           nonuniform List<scalar> 4(9.75886e-14 0 0 -9.75886e-14);
+        value           nonuniform List<scalar> 4(-2.66454e-15 0 0 2.66454e-15);
     }
     defaultFaces
     {
@@ -47,22 +47,22 @@ boundaryField
         value           nonuniform List<scalar> 
 16
 (
-9.75886e-14
+-2.66454e-15
 0
-9.75886e-14
+-2.66454e-15
 0
-9.75886e-14
+-2.66454e-15
 0
-9.75886e-14
+-2.66454e-15
 0
 0
--9.75886e-14
+2.66454e-15
 0
--9.75886e-14
+2.66454e-15
 0
--9.75886e-14
+2.66454e-15
 0
--9.75886e-14
+2.66454e-15
 )
 ;
     }
